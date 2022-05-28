@@ -9,6 +9,7 @@ struct node
 };
 struct node* root;
 
+// Do In Order Treewalk and sum up all Node values along the way
 int MinAggregate(struct node* root, int sum){
     if (root == NULL) {return sum;}
     else
